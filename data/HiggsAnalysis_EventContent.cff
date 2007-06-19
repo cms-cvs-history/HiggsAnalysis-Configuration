@@ -1,0 +1,13 @@
+#
+# HiggsAnalysis event content 
+#
+
+# include "HiggsAnalysis/XYZ/data/xyz_EventContent.cff"
+
+block HiggsAnalysisEventContent = {
+  untracked vstring outputCommands = {
+ }
+}
+
+# replace HiggsAnalysisEventContent.outputCommands += xyzEventContent.outputCommands
+

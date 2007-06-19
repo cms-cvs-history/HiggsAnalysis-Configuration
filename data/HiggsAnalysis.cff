@@ -1,0 +1,9 @@
+#
+# HiggsAnalysis standard sequences
+#
+
+# include "HiggsAnalysis/XYZ/data/XYZ.cff"
+
+# sequence higgsAnalysis = {
+#   xyz
+# }
