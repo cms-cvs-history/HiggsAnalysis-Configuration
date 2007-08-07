@@ -6,7 +6,7 @@
 include "HiggsAnalysis/Skimming/data/heavyChHiggsToTauNu_OutputModules.cff"
 include "HiggsAnalysis/Skimming/data/higgsTo2Gamma_OutputModules.cff"
 include "HiggsAnalysis/Skimming/data/higgsToInvisible_OutputModules.cff"
-include "HiggsAnalysis/Skimming/data/higgsToTauTau_ETau_OutputModules.cff"
+include "HiggsAnalysis/Skimming/data/higgsToTauTau_LeptonTau_OutputModules.cff"
 include "HiggsAnalysis/Skimming/data/higgsToWW2Leptons_OutputModules.cff"
 include "HiggsAnalysis/Skimming/data/higgsToZZ4Leptons_OutputModules.cff"
 
@@ -14,7 +14,7 @@ sequence HiggsAnalysisOutput = {
   heavyChHiggsToTauNuRECOSIM &
   higgsTo2GammaRECOSIM &
   higgsToInvisibleRECOSIM &
-  higgsToTauTauEtauAODSIM &
+  higgsToTauTauLeptonTauAODSIM &
   higgsToWW2LeptonsAODSIM &
   higgsToZZ4LeptonsRECOSIM 
 }

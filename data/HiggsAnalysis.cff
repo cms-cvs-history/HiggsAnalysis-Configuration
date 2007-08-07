@@ -6,7 +6,7 @@
 include "HiggsAnalysis/Skimming/data/heavyChHiggsToTauNu_Sequences.cff"
 include "HiggsAnalysis/Skimming/data/higgsTo2Gamma_Sequences.cff"
 include "HiggsAnalysis/Skimming/data/higgsToInvisible_Sequences.cff"
-include "HiggsAnalysis/Skimming/data/higgsToTauTau_ETau_Sequences.cff"
+include "HiggsAnalysis/Skimming/data/higgsToTauTau_LeptonTau_Sequences.cff"
 include "HiggsAnalysis/Skimming/data/higgsToWW2Leptons_Sequences.cff"
 include "HiggsAnalysis/Skimming/data/higgsToZZ4Leptons_Sequences.cff"
 
@@ -14,7 +14,7 @@ sequence higgsAnalysis = {
   heavyChHiggsToTauNuSequence &
   higgsTo2GammaSequence &
   higgsToInvisibleSequence &
-  higgsToTauTauETauSequence &
+  higgsToTauTauLeptonTauSequence &
   higgsToWW2LeptonsSequence &
   higgsToZZ4LeptonsSequence
 }

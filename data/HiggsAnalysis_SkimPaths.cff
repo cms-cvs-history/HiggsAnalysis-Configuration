@@ -6,6 +6,6 @@
 include "HiggsAnalysis/Skimming/data/heavyChHiggsToTauNu_SkimPaths.cff"
 include "HiggsAnalysis/Skimming/data/higgsTo2Gamma_SkimPaths.cff"
 include "HiggsAnalysis/Skimming/data/higgsToInvisible_SkimPaths.cff"
-include "HiggsAnalysis/Skimming/data/higgsToTauTau_ETau_SkimPaths.cff"
+include "HiggsAnalysis/Skimming/data/higgsToTauTau_LeptonTau_SkimPaths.cff"
 include "HiggsAnalysis/Skimming/data/higgsToWW2Leptons_SkimPaths.cff"
 include "HiggsAnalysis/Skimming/data/higgsToZZ4Leptons_SkimPaths.cff"
