@@ -11,10 +11,10 @@ include "HiggsAnalysis/Skimming/data/higgsToWW2Leptons_OutputModule.cff"
 include "HiggsAnalysis/Skimming/data/higgsToZZ4Leptons_OutputModule.cff"
 
 sequence HiggsAnalysisOutput = {
-  heavyChHiggsToTauNuRECOSIM &
-  higgsTo2GammaRECOSIM &
-  higgsToInvisibleRECOSIM &
-  higgsToTauTauLeptonTauAODSIM &
-  higgsToWW2LeptonsAODSIM &
-  higgsToZZ4LeptonsRECOSIM 
+  heavyChHiggsToTauNuOutputModuleRECOSIM &
+  higgsTo2GammaOutputModuleRECOSIM &
+  higgsToInvisibleOutputModuleRECOSIM &
+  higgsToTauTauLeptonTauOutputModuleAODSIM &
+  higgsToWW2LeptonsOutputModuleAODSIM &
+  higgsToZZ4LeptonsOutputModuleRECOSIM 
 }
