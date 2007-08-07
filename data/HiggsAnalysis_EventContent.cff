@@ -18,7 +18,7 @@ block HiggsAnalysisEventContent = {
 replace HiggsAnalysisEventContent.outputCommands += heavyChHiggsToTauNuEventContent.outputCommands
 replace HiggsAnalysisEventContent.outputCommands += higgsTo2GammaEventContent.outputCommands
 replace HiggsAnalysisEventContent.outputCommands += higgsToInvisibleEventContent.outputCommands
-replace HiggsAnalysisEventContent.outputCommands += higgsToTauTauLeptontauEventContent.outputCommands
+replace HiggsAnalysisEventContent.outputCommands += higgsToTauTauLeptonTauEventContent.outputCommands
 replace HiggsAnalysisEventContent.outputCommands += higgsToWW2LeptonsEventContent.outputCommands
 replace HiggsAnalysisEventContent.outputCommands += higgsToZZ4LeptonsEventContent.outputCommands
 
