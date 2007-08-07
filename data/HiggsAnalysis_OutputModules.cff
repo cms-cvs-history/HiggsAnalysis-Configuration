@@ -3,12 +3,12 @@
 #
 # Dominique Fortin - UC Riverside
 
-include "HiggsAnalysis/Skimming/data/heavyChHiggsToTauNu_OutputModules.cff"
-include "HiggsAnalysis/Skimming/data/higgsTo2Gamma_OutputModules.cff"
-include "HiggsAnalysis/Skimming/data/higgsToInvisible_OutputModules.cff"
-include "HiggsAnalysis/Skimming/data/higgsToTauTau_LeptonTau_OutputModules.cff"
-include "HiggsAnalysis/Skimming/data/higgsToWW2Leptons_OutputModules.cff"
-include "HiggsAnalysis/Skimming/data/higgsToZZ4Leptons_OutputModules.cff"
+include "HiggsAnalysis/Skimming/data/heavyChHiggsToTauNu_OutputModule.cff"
+include "HiggsAnalysis/Skimming/data/higgsTo2Gamma_OutputModule.cff"
+include "HiggsAnalysis/Skimming/data/higgsToInvisible_OutputModule.cff"
+include "HiggsAnalysis/Skimming/data/higgsToTauTau_LeptonTau_OutputModule.cff"
+include "HiggsAnalysis/Skimming/data/higgsToWW2Leptons_OutputModule.cff"
+include "HiggsAnalysis/Skimming/data/higgsToZZ4Leptons_OutputModule.cff"
 
 sequence HiggsAnalysisOutput = {
   heavyChHiggsToTauNuRECOSIM &
